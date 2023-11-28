@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+div{
+    display:inline-block;
+    border: 1px  solid;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+ 
+}
+#d1:hover{
+    background-color: rgb(4, 235, 185);
+}
+#d2:hover{
+    background-color: blue;
+}
+#d3:hover{
+    background-color: teal;
+}

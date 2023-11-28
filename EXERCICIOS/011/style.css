@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(141, 135, 135), rgb(70, 69, 69) );
+}
+
+header{
+    background-image: linear-gradient(to right, rgb(133, 133, 133),rgb(168, 168, 168));
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: beige;
+    
+    
+}
+
+main{
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 20px 60px 20px 20px;
+    padding: 10px;
+    box-shadow: 3px rgba(0, 0, 0, 0.514);
+}
+
+article{
+    color: bisque;
+}
+
+nav{
+    background-color: rgb(175, 184, 187);
+    padding: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(194, 250, 213);
+    font-weight: bold;
+    margin: 40px;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+
+    
+}
+.desevolvido > p{
+    background-color: rgb(119, 122, 121);
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+   padding: 1px;
+   text-align: center;
+}
+
+footer > .mim{
+    margin: 0px;
+}

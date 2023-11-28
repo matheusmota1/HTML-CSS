@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*height: 100%;*/
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=PT+Sans+Narrow&family=Roboto+Slab:wght@100&display=swap');
+
+body{
+
+    background-image: linear-gradient(to right, #0FC2C0, #008F8C);
+    font-family: arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 2px 3px #023535a8;
+    width: 600px ;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+h1{
+    color: #054e4ee7;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(122, 177, 248, 0.781);
+    font-family: 'PT+Sans', sans-seri;
+}
+
+h2{
+    color:#0FC2C0;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{ 
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
