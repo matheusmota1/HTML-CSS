@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+body{
+ background-image: url(imagem/wallpaper005.jpg);
+}
+
+
+div.bloco{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+    width: 300px;
+    height: 300px;
+}
+
+div#b1{
+  background-color: aquamarine;
+}
+div#b2{
+  background-image: linear-gradient(to bottom, blue, black);
+}
+div#b3{
+ background-image: url(imagem/pattern003.png);
+}
