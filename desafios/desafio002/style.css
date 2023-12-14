@@ -61,6 +61,9 @@ section{
  line-height: 2em;
  font-size: 20px;
 }
+section > p{
+    padding-bottom: 3em;
+}
 
 .normal{
  background-color: white;
@@ -75,6 +78,17 @@ section.imagem > p{
     display: inline-block;
     padding: 6px;
     background-color: rgba(0, 0, 0, 0.342);
+}
+
+section#img01{
+    background-image: url(imagem/livros.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+section#img02{
+    background-image: url(imagem/th\ \(1\).jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
 }
 
 
