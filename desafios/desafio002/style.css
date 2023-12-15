@@ -73,6 +73,8 @@ section > p{
 .imagem{
  background-color: rgb(83, 75, 75);
  color: white;
+ background-size: cover;
+ background-attachment: fixed;
 }
 section.imagem > p{
     display: inline-block;
@@ -81,13 +83,14 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url(imagem/livros.jpg);
-    background-position: center center;
+    background-image: url(imagem/maioC.jpg);
+    background-position: left center;
     background-repeat: no-repeat;
+    box-shadow: 5px black;
 }
 section#img02{
-    background-image: url(imagem/th\ \(1\).jpg);
-    background-position: left center;
+    background-image: url(imagem/cartaCCC.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
