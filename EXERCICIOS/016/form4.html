@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+
+        fieldset{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+
+            padding: 10px;
+            height: 210px;
+            width: 190px;
+
+          background-color: rgb(168, 236, 219);
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Mais mecanicas de Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">nome:</label>
+                <input type="text" name="nome" id="inome"required>
+            </p>
+            <p>
+                <label for="itelefone">Telefone:</label>
+                <input type="tel" name="telefone" id="itelefone" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
+            
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="suco3235@..">
+        
+
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </fieldset>
+    </form>
+</body>
+</html>
