@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>novas mecanicas</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="iesta">Estados</label>
+            <select name="estados" id="iesta">
+
+
+              <option value="" selected>Escolha</option>
+                <optgroup label="Sudeste">
+                    <option value="rj"> Rio de janeiro</option>
+                    <option value="sp">São paulo</option>
+                    <option value="mg">Minas gerais</option>
+                </optgroup>
+
+                <optgroup label="Nordeste">
+                    <option value="Ma">Maranhão</option>
+                    <option value="PE">pernambuco</option>
+                    <option value="Rn">Rio grande do norte</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label >
+            <input type="text" name="prof" id="iprof" placeholder="Você pode escrever" list="listprof">
+            <datalist id="listprof">
+                <option >Adisministrador</option>
+                <option >contador</option>
+                <option >predeiro</option>
+                <option >professor</option>
+                <option >Medico(a)</option>
+                <option >cozinheiro(a)</option>
+            </datalist>
+
+        </p>
+        <p>
+            <label for="imsm">mensagem:</label><br>
+            <textarea name="msm" id="imsm" cols="30" rows="10" style="resize: none" placeholder="Ola! aqui você pode deixa alguma.alguma mensagem do que  achou o site,e, oque podemos melhora!"></textarea>
+        </p>
+        
+
+
+
+        <p>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
