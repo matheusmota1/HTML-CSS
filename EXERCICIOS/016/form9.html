@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1> mecanica outpuy</h1>
+    <form action="" method="get">
+
+        <p>
+            <label for="inum">nota</label>
+            <input type="range" name="NUM" id="inum" required oninput="inun.innerHTML = Number(inum.value)" min="1" max="10">
+            <output id="inun">5</output>
+
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
